@@ -20,22 +20,22 @@ In this assignment, I was tasked with creating a LIRI App. LIRI Is the Language 
 **concert-this**
    * User Input: “Artist”
    * Uses Bands In Town API to get the following data:
-   - Name of Venue
-   - Venue Location
-   - Date of the Event (used moment to format)
+     - Name of Venue
+     - Venue Location
+     - Date of the Event (used moment to format)
 **spotify-this-song**
    * User Input: “Song Title”
    * Uses Spotify API to get the following data:
-   - Artist(s)
-   - The song's name
-   - A preview link of the song from Spotify
-   - The album that the song is from
-   - If user doesn’t input song title, will search default “The Sign” By Ace of Base
+     - Artist(s)
+     - The song's name
+     - A preview link of the song from Spotify
+     - The album that the song is from
+     - If user doesn’t input song title, will search default “The Sign” By Ace of Base
 **movie-this**
    * User Input: “movie title”
    * Uses OMDB API to get the following data:
-   - Title of the movie.
-   - Year the movie came out.
-   - IMDB Rating of the movie.
+     - Title of the movie.
+     - Year the movie came out.
+     - IMDB Rating of the movie.
   
 
