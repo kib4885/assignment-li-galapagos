@@ -23,6 +23,7 @@ In this assignment, I was tasked with creating a LIRI App. LIRI Is the Language 
      - Name of Venue
      - Venue Location
      - Date of the Event (used moment to format)
+
 **spotify-this-song**
    * User Input: “Song Title”
    * Uses Spotify API to get the following data:
@@ -31,6 +32,7 @@ In this assignment, I was tasked with creating a LIRI App. LIRI Is the Language 
      - A preview link of the song from Spotify
      - The album that the song is from
      - If user doesn’t input song title, will search default “The Sign” By Ace of Base
+     
 **movie-this**
    * User Input: “movie title”
    * Uses OMDB API to get the following data:
