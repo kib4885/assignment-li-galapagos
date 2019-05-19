@@ -1,1 +1,3 @@
-# assignment-li-galapagos
+# assignment-li-galapagos - LIRI APP
+
+# **OVERVIEW**
