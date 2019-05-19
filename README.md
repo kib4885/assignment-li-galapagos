@@ -7,6 +7,6 @@ In this assignment, I was tasked with creating a LIRI App. LIRI Is the Language 
 ## **TECHNOLOGIES USED**
 
 ### **JavaScript**
-#### * **Platforms:**
+#### **Platforms:**
 * Node.js – used to run commands for Liri program
 * Moment.js – used to convert dates and time
