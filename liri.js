@@ -30,16 +30,18 @@ else if (command === "do-what-it-says") {
 
 //fuctions
 function moviethis() {
-
+// command line argument
     var movie = search
+    //user no input default 
     if (movie === "") {
         movie = "Mr Nobody";
     }
-
+//OMDB API call
     axios.get("https://www.omdbapi.com/?t=" + movie + "&y=&type=movie&apikey=4e36d18a").then(
 
         function (response) {
             var movie = response.data;
+            //movie data object
             var movieData = [
                 "\n",
                 "Title: " + movie.Title,
@@ -61,22 +63,27 @@ function moviethis() {
 }
 
 function spotifythis() {
+    // command line argument
     var song = search;
-
+//user no input default 
     if (song === "") {
         song = "The Sign, Ace of Base";
     }
     console.log("\n");
-    spotify.search({ type: 'track', query: song, limit: 5 })
+    //spotify API call, with limit
+    spotify.search({ type: 'track', query: song, limit: 6 })
         .then(function (response) {
             var song = response.tracks.items
+            // loop for song object//
             for (var i = 0; i < song.length; i++) {
                 var songinfo = response.tracks.items[i]
                 var artistArray = songinfo.artists;
+                //loop for artist oject//
                 for (var j = 0; j < artistArray.length; j++) {
-                    var unknown = artistArray[j].name;
+                    var artist = artistArray[j].name;
+// song object
                     var songData = [
-                        "Artist: " + unknown,
+                        "Artist: " + artist,
                         "Song: " + songinfo.name,
                         "Album: " + songinfo.album.name,
                         "Preview Song: " + songinfo.preview_url,
@@ -96,16 +103,21 @@ function spotifythis() {
 
 
 function concertthis() {
+     // command line argument
     var artist = search;
-
+//Bands in town API,
     axios.get("https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp").then(
         function (response) {
+            //response event limit
             var eventMax = 6;
+            //loop for limit
             for (var i = 0; i < eventMax; i++) {
                 var events = response.data[i];
+                //moment use to format date
                 var eventDate = moment(events.datetime).format('MM/DD/YYYY');
                 var venue = events.venue;
                 var location = venue.city + ", " + venue.region;
+                //concert object
                 var concertData = [
                     "\n____________________________________\n",
                     "Venue Name: " + venue.name,
@@ -131,11 +143,14 @@ function dothis() {
             return console.log(error);
         }
         var output = data.split(",");
-        console.log(output[0]);
+        // console.log(output[0]);
 
-
+//arguments for inside of random.txt
+        //run command
         command = output[0];
+        //search command
         search = output[1];
+        //function
         spotifythis()
 
     });
