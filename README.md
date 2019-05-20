@@ -2,6 +2,8 @@
 
 ## **LINK TO APP VIDEO**
 
+(https://photos.app.goo.gl/ei1dR9joNu4PgPCt5)
+
 ## **OVERVIEW**
 
 In this assignment, I was tasked with creating a LIRI App. LIRI Is the Language Interpretation and Recognition Interface. I will be using LIRI at the node app command line, where it will take parameters (listed below) and return data. 
