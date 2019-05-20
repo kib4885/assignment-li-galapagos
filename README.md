@@ -2,7 +2,7 @@
 
 ## **LINK TO APP VIDEO**
 
-(https://photos.app.goo.gl/ei1dR9joNu4PgPCt5)
+https://drive.google.com/file/d/1ObEakTSEe2te8-wa6LbDUjJSIMF4TcrA/view?usp=sharing
 
 ## **OVERVIEW**
 
