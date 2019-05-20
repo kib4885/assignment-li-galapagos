@@ -84,17 +84,23 @@ In this assignment, I was tasked with creating a LIRI App. LIRI Is the Language 
 * Within the node terminal the command and search parameter(s) are inputted
   - Code Ex:   node liri.js concert-this ariana grande
 * The function assigned to the command will run
+
 ![function](https://github.com/kib4885/assignment-li-galapagos/blob/master/images/function.png)
 
 * Request data from API via Axios
+
 ![api](https://github.com/kib4885/assignment-li-galapagos/blob/master/images/axios.png)
 
 * Return response(data), based on parameters
+
 ![data](https://github.com/kib4885/assignment-li-galapagos/blob/master/images/response.png)
 
 * Append data to log.txt
+
 ![append-file](https://github.com/kib4885/assignment-li-galapagos/blob/master/images/append-data.png)
 
 * Console.log data parameters (output to terminal)
+
 ![console-file](https://github.com/kib4885/assignment-li-galapagos/blob/master/images/console-data.png)
+
 * Clear terminal and repeat for other commands	
