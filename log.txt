@@ -1,0 +1,49 @@
+
+____________________________________
+
+
+Venue Name: Toyota Center
+
+Venue Location: Houston, TX
+
+Concert Date: 05/19/2019
+____________________________________
+
+
+Venue Name: American Airlines Center
+
+Venue Location: Dallas, TX
+
+Concert Date: 05/21/2019
+____________________________________
+
+
+Venue Name: Smoothie King Center
+
+Venue Location: New Orleans, LA
+
+Concert Date: 05/25/2019
+____________________________________
+
+
+Venue Name: Chesapeake Energy Arena
+
+Venue Location: Oklahoma City, OK
+
+Concert Date: 05/23/2019
+____________________________________
+
+
+Venue Name: Amalie Arena
+
+Venue Location: Tampa, FL
+
+Concert Date: 05/28/2019
+____________________________________
+
+
+Venue Name: Amway Center
+
+Venue Location: Orlando, FL
+
+Concert Date: 05/29/2019
